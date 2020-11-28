@@ -55,7 +55,7 @@ function findAdjacent(node, vertices, edges)
       }
     }
   }
-  
+  console.log(adjArray)
   return adjArray
   
 }
