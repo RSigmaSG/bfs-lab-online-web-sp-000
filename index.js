@@ -12,7 +12,7 @@ function bfs(rootNode, vertices, edges){
   {
     //console.log("here")
     let firstNode = queue.shift()
-    console.log(firstNode)
+    //console.log(firstNode)
     let adjacentVertices = findAdjacent(firstNode.name, vertices, edges)
     //console.log("here")
     
