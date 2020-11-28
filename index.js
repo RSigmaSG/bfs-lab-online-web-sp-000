@@ -83,7 +83,7 @@ function markDistanceAndPredecessor(vertex, vertices)
 
 function addTo(vertices, list)
 {
-  console.log(vertices)
+//  console.log(vertices)
   for (var i = 0; i < vertices.length; i++)
   {
     list.push(vertices[i])
