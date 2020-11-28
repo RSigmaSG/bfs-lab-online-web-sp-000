@@ -6,7 +6,7 @@ function bfs(rootNode, vertices, edges){
   
   rootNode.distance = 0
   
-    let queue = [rootNode]
+  let queue = [rootNode]
 
   while(queue !== null)
   {
