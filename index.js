@@ -7,7 +7,7 @@ function bfs(rootNode, vertices, edges){
   rootNode.distance = 0
   
   queue.push(rootNode)
-  console.log(queue)
+//  console.log(queue)
   while(queue !== null)
   {
     //console.log("here")
@@ -17,7 +17,7 @@ function bfs(rootNode, vertices, edges){
     
     markDistanceAndPredecessor(firstNode, adjacentVertices)
     
-    console.log(adjacentVertices)
+//    console.log(adjacentVertices)
     addTo(adjacentVertices, queue)  
     visited.push(firstNode)
 //    break
