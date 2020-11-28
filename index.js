@@ -20,7 +20,7 @@ function bfs(rootNode, vertices, edges){
     console.log(adjacentVertices)
     addTo(adjacentVertices, queue)  
     visited.push(firstNode)
-    break
+//    break
   }
   return visited
 
