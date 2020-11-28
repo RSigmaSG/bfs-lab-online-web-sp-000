@@ -16,6 +16,8 @@ function bfs(rootNode, vertices, edges){
     //console.log("here")
     
     markDistanceAndPredecessor(firstNode, adjacentVertices)
+    
+    console.log(adjacentVertices)
     addTo(adjacentVertices, queue)  
     visited.push(firstNode)
     break
