@@ -1,12 +1,10 @@
 function bfs(rootNode, vertices, edges){
 
   rootNode = vertices[0]
-  let queue = []
+  let queue = [rootNode]
   let visited = []
   
   rootNode.distance = 0
-  
-  queue.push(rootNode)
 
   while(queue !== null)
   {
