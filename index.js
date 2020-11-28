@@ -22,7 +22,7 @@ function bfs(rootNode, vertices, edges){
     visited.push(firstNode)
 //    break
   }
-  console.log(vertices)
+  console.log(visited)
   return visited
 
 }
