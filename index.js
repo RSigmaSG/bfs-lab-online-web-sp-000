@@ -1,6 +1,7 @@
 function bfs(rootNode, vertices, edges){
 
   rootNode = vertices[0]
+  console.log(rootNode)
 
   let visited = []
   
