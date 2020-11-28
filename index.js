@@ -18,7 +18,7 @@ function bfs(rootNode, vertices, edges){
     markDistanceAndPredecessor(firstNode, adjacentVertices)
     addTo(adjacentVertices, queue)  
     visited.push(firstNode)
-    
+    break
   }
   return visited
 
