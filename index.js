@@ -10,7 +10,7 @@ function bfs(rootNode, vertices, edges){
   let queue = [rootNode]
   //console.log(queue)
   
-  while(queue !== null)
+  while(queue.length !== 0)
   {
 
 
